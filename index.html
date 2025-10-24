@@ -1,10 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-  <title>Info</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f4f4f4;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    .contact-info {
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+
+    .contact-info a {
+      color: #0077cc;
+      text-decoration: none;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 10px;
+      }
+
+      .container {
+        padding: 15px;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>Pagina de conctacto</h1>
-  <p>Compartir informaci.</p>
+  <div class="container">
+    <h1>Datos de Contacto</h1>
+    <div class="contact-info">
+      <p><strong>Nombre:</strong> Juan Pérez</p>
+      <p><strong>Email:</strong> <a href="mailto:juanperez@email.com">juanperez@email.com</a></p>
+      <p><strong>Teléfono:</strong> <a href="tel:+5491123456789">+54 9 11 2345-6789</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/juanperez" target="_blank">linkedin.com/in/juanperez</a></p>
+    </div>
+  </div>
 </body>
 </html>
